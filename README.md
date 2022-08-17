@@ -71,10 +71,10 @@ To train the Nearest Neighbours model, we have created a compressed sparse row m
 This system recommends books by calculating similarities in Book Titles. For this, **TF-IDF feature vectors** were created for unigrams and bigrams of Book-Titles; only those books' data has been considered which are having at least 80 ratings.
 
 ## 3. Libraries Used:
-* ipython-notebook - Python Text Editor
-* sklearn - Machine learning library
-* numpy, scipy- number python library
-* pandas - data handling library
+* **ipython-notebook** and **pycharm** - Python Text Editor
+* **sklearn** - Machine learning library
+* **numpy**, **scipy**- number python library
+* **pandas** - data handling library
     
 ## 4. Deployment : 
 This project uses **Flask** as web API and **Heroku** as web server for deployment.
